@@ -2,7 +2,7 @@
 Assignment:
 hillplayfair - Hill cipher followed by Playfair cipher
 
-Author: <Your Name Here>
+Author: <Jacob Giltner>
 
 Language: C, C++, or Rust (only)
 
@@ -32,6 +32,8 @@ Due Date: February 16th 2026
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 int main(int argc, char *argv[])
 {
@@ -54,6 +56,27 @@ int main(int argc, char *argv[])
         printf("No extra arguments provided.\n");
         printf("Try: ./00_args 123\n");
     }
+
+    
+
+    
+
+    // Output.
+    printf("Mode:\n\nEncryption Mode\n\n");
+
+    printf("Original Plaintext:\n\n\n\n");
+
+    printf("Hill Cipher Key Dimension:\n\n\n\n");
+    
+    printf("Hill Cipher Key Matrix:\n\n");
+    
+
+
+    printf("\nPreprocessed Plaintext:\n\n\n\n");
+
+    printf("");
+
+
 
     return 0;
 }
